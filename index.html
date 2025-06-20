@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Bansos Pemerintah</title>
+  <style>
+    /* Styling umum */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #3366cc; /* Warna biru */
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    /* Logo styling */
+    .logo {
+      margin-top: 50px;
+    }
+
+    .logo img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%; /* Membuat gambar menjadi bulat */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+    }
+
+    /* Judul dan deskripsi */
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 20px 30px;
+  font-weight: bold; /* Teks menjadi tebal */
+}
+
+
+    /* Tombol */
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      position: relative;
+    }
+
+    .button {
+      background-color: white;
+      color: #3366cc;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Bayangan tombol */
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      position: relative;
+      animation: float 2s infinite; /* Animasi tombol */
+    }
+
+    .button img {
+      width: 30px;
+      height: auto;
+    }
+
+    .button:hover {
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3px);
+    }
+
+    /* Animasi floating */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    /* Footer */
+    .footer {
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .footer a {
+      display: inline-block;
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 14px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .footer a:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://bio.linkcdn.cc/upload/2024110602/173086199793913812.jpg" alt="Logo Bansos">
+  </div>
+
+  <!-- Judul dan Deskripsi -->
+  <h1 class="title">BANSOS PEMERINTAH</h1>
+  <p class="description">
+    Bansos BPNT, PKH, BPJS, KIS di tahun ini Cair SEBANYAK 500-2juta ke Rekening<br>
+    BRI, BNI, dan Mandiri. Langsung daftarkan diri anda 👇👇👇
+  </p>
+
+  <!-- Tombol -->
+  <div class="button-container">
+    <a href="date.html" class="button">
+      <img src="https://bio.linkcdn.cc/upload/2024110602/173086199793913812.jpg" alt="Icon">
+      DAFTARKAN DIRI ANDA
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="">Bantuan Sosial</a>
+  </div>
+</body>
+</html>
